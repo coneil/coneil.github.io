@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Reinforce And Forget
-subtitle: throw away and discover
+subtitle: the fuck was i talking about...
 tags: [blahblahblah]
 ---
 
