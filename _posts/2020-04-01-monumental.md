@@ -8,4 +8,4 @@ share-img: /assets/img/monumental.jpeg
 tags: [employment, monumental]
 ---
 
-[Monumental](https://monumental,io) is an independent mobile game development studio based in Austin, Texas.
+[Monumental](https://monumental.io) is an independent mobile game development studio based in Austin, Texas.
