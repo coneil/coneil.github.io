@@ -133,7 +133,6 @@ img {
   -webkit-transition: padding .5s ease-in-out;
   -moz-transition: padding .5s ease-in-out;
   transition: padding .5s ease-in-out;
-  min-height: 80px;
 }
 
 .navbar-custom,
@@ -214,7 +213,7 @@ img {
 
 @media (min-width: 1200px) {
   .navbar-custom {
-    padding-top: 1.25rem;
+    padding-top: 2.5rem;
     padding-bottom: 1.25rem;
   }
 
@@ -279,6 +278,11 @@ img {
 }
 
 @media (max-width: 1199px) {
+  .navbar-custom {
+    padding-top: 1.5rem;
+    padding-bottom: 1.25rem;
+  }
+
   .navbar-custom .navbar-collapse {
     border-top: 1px solid {{ site.navbar-border-col | default: "#DDDDDD" }};
     margin: 0 -1rem;
