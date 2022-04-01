@@ -30,6 +30,16 @@
     #contents {
       margin: 0 auto;
       width: 500px;
+      height: 90vh;
+    }
+
+    .vcenter {
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      width: 500px;
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
       text-align: justify;
       text-justify: inter-word;
       -moz-text-align-last: justify;
@@ -49,19 +59,21 @@
 
   <body>
     <div id="contents">
-      <h1>COREY ONEIL</h1>
-      <p>
-        is a software developer living in
-        <a
-          href="https://www.google.com/maps/place/Austin,+TX/@30.3076863,-97.8934825,11z/data=!3m1!4b1!4m5!3m4!1s0x8644b599a0cc032f:0x5d9b464bd469d57a!8m2!3d30.267153!4d-97.7430608"
-          >Austin, TX</a
-        >. He has been working in games for the past 12 years.
-      </p>
-      <p>
-        Corey is currently Vice President of Engineering at
-        <a href="https://monumental.io">Monumental</a> and Co-founder of
-        <a href="https://stageone.io">StageOne</a>.
-      </p>
+      <div class="vcenter">
+        <h1>COREY ONEIL</h1>
+        <p>
+          is a software developer living in
+          <a
+            href="https://www.google.com/maps/place/Austin,+TX/@30.3076863,-97.8934825,11z/data=!3m1!4b1!4m5!3m4!1s0x8644b599a0cc032f:0x5d9b464bd469d57a!8m2!3d30.267153!4d-97.7430608"
+            >Austin, TX</a
+          >. He has been working in games for the past 12 years.
+        </p>
+        <p>
+          Corey is currently Vice President of Engineering at
+          <a href="https://monumental.io">Monumental</a> and Co-founder of
+          <a href="https://stageone.io">StageOne</a>.
+        </p>
+      </div>
     </div>
   </body>
 </html>
